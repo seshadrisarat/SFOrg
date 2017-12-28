@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Courses</value>
+    </caseValues>
+    <fields>
+        <help><!-- Affiliation University --></help>
+        <label><!-- Affiliation --></label>
+        <name>Affiliation__c</name>
+        <picklistValues>
+            <masterLabel>Bangalore University</masterLabel>
+            <translation><!-- Bangalore University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi University</masterLabel>
+            <translation><!-- Delhi University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mumbai University</masterLabel>
+            <translation><!-- Mumbai University --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Course Category --></help>
+        <label><!-- Course Category --></label>
+        <name>Course_Category__c</name>
+        <picklistValues>
+            <masterLabel>Biology</masterLabel>
+            <translation><!-- Biology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemistry</masterLabel>
+            <translation><!-- Chemistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economics</masterLabel>
+            <translation><!-- Economics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>History</masterLabel>
+            <translation><!-- History --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physics</masterLabel>
+            <translation><!-- Physics --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Course Faculty --></help>
+        <label><!-- Course Faculty --></label>
+        <name>Course_Faculty__c</name>
+    </fields>
+    <fields>
+        <help><!-- Course Name --></help>
+        <label><!-- Course Name --></label>
+        <name>Course_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Duration of the course --></help>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+        <picklistValues>
+            <masterLabel>1 Year</masterLabel>
+            <translation><!-- 1 Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1-2 Months</masterLabel>
+            <translation><!-- 1-2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-6 Months</masterLabel>
+            <translation><!-- 5-6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8-9 Months</masterLabel>
+            <translation><!-- 8-9 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exam needed ? --></label>
+        <name>Exam_needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Fee of the course --></help>
+        <label><!-- Fee --></label>
+        <name>Fee__c</name>
+        <picklistValues>
+            <masterLabel>$1000</masterLabel>
+            <translation><!-- $1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$1100</masterLabel>
+            <translation><!-- $1100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$1200</masterLabel>
+            <translation><!-- $1200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$300</masterLabel>
+            <translation><!-- $300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$400</masterLabel>
+            <translation><!-- $400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$500</masterLabel>
+            <translation><!-- $500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$600</masterLabel>
+            <translation><!-- $600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$700</masterLabel>
+            <translation><!-- $700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$800</masterLabel>
+            <translation><!-- $800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$900</masterLabel>
+            <translation><!-- $900 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

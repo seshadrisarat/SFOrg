@@ -1,0 +1,6 @@
+<apex:component controller="UserDeactivateActionInfoMailCtrl" access="global">
+    <apex:attribute name="managersName" type="String" description="Name of Manager" assignTo="{!managerName}"/>
+    <apex:attribute name="countOfOpenAgmt" type="Integer" description="Number of open agreement" assignTo="{!NoOfOpenAgmt}"/>
+    <apex:attribute name="openQueuesList" type="GroupMember[]" description="" assignTo="{!queuesList}"/>
+    
+</apex:component>

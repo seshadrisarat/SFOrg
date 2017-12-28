@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Book</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Books</value>
+    </caseValues>
+    <fields>
+        <help><!-- Price of the the Book --></help>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Price should be more than or equal to 95 --></errorMessage>
+        <name>Check_Price</name>
+    </validationRules>
+</CustomObjectTranslation>

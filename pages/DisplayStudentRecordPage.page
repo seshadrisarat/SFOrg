@@ -1,0 +1,29 @@
+<apex:page standardController="Student__c" title="Student's Records" showHeader="true" recordSetVar="records">
+  <apex:form >
+    <apex:pageBlock >
+      <apex:pageBlockSection title="Display Students">
+                    <apex:pageBlockTable value="{!records}" var="record">
+                        <apex:column headerValue="Full Name" value="{!record.Full_Name__c}"/>
+                        <apex:column headerValue="Age" value="{!record.Age__c}"/>
+                        <apex:column headerValue="Email ID" value="{!record.EmailID__c}"/>
+                        <apex:column >
+                        <apex:commandLink value="Edit" action="{!edit}"/></apex:column>
+                    </apex:pageBlockTable>
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockSection title="{!if($CurrentPage.parameters.retURL==null,'Create Student','Edit Student')}">
+                        <apex:inputField value="{!Student__c.First_Name__c}"/>
+                        <apex:inputField value="{!Student__c.Last_Name__c}"/>
+                        <apex:inputField value="{!Student__c.Age__c}"/>
+                        <apex:inputField value="{!Student__c.EmailID__c}"/>
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockButtons location="top">
+           <apex:commandButton value="Edit" action="{!edit}" id="editButton" />
+           <apex:commandButton value="Save" action="{!save}" id="saveButton" />
+           <apex:commandButton value="Cancel" action="{!cancel}" id="cancelButton" />
+      </apex:pageBlockButtons>
+
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

@@ -1,0 +1,42 @@
+<apex:page controller="DisplayStudentRecordController" title="Student's Records" showHeader="true">
+  <apex:form >
+    <apex:pageBlock id="pageBlockId">
+      <apex:pageBlockSection collapsible="true">
+           <apex:pageBlockTable value="{!students}" var="student">
+                 <apex:column headerValue="First Name">
+                     <apex:outputField value="{!student.First_Name__c}" rendered="{!!isEditEnabled}"/>
+                     
+                     <apex:inputField value="{!student.First_Name__c}" rendered="{!isEditEnabled}"/>
+
+                 </apex:column>
+                 <apex:column headerValue="Last Name">
+                     
+                     <apex:outputField value="{!student.Last_Name__c}" rendered="{!!isEditEnabled}"/>
+                     
+                     <apex:inputField value="{!student.Last_Name__c}" rendered="{!isEditEnabled}"/>
+                 </apex:column>
+                 <apex:column headerValue="Age">
+                     <apex:outputField value="{!student.Age__c}" rendered="{!!isEditEnabled}"/>
+                     <apex:inputField value="{!student.Age__c}" rendered="{!isEditEnabled}"/>
+                 </apex:column>
+                 <apex:column headerValue="EmailID">
+                     <apex:outputField value="{!student.EmailID__c}" rendered="{!!isEditEnabled}"/>
+                     <apex:inputField value="{!student.EmailID__c}" rendered="{!isEditEnabled}"/>
+                 </apex:column>
+                 <apex:column headerValue="Action">
+                 <apex:commandLink value="Edit" action="{!edit}" id="editLink" rendered="{!!isEditEnabled}"/>
+                 <apex:commandLink value="Save" action="{!save}" id="saveLink" rendered="{!isEditEnabled}"/>
+                 </apex:column>
+                 <apex:inlineEditSupport event="onClick"
+                 showOnEdit="saveButton,cancelButton" hideOnEdit="editButton" />
+           </apex:pageBlockTable>
+           <apex:outputText >{!$User.FirstName} {!$User.LastName}</apex:outputText>
+      </apex:pageBlockSection>
+      <apex:pageBlockButtons >
+           <apex:commandButton value="Edit" action="{!edit}" id="editButton" />
+           <apex:commandButton value="Save" action="{!save}" id="saveButton" />
+           <apex:commandButton value="Cancel" action="{!cancel}" id="cancelButton" />
+      </apex:pageBlockButtons>
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

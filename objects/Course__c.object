@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Course Object</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Affiliation__c</fullName>
+        <description>Affiliation University</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Affiliation University</inlineHelpText>
+        <label>Affiliation</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bangalore University</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Delhi University</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mumbai University</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Course_Category__c</fullName>
+        <description>Course Category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Course Category</inlineHelpText>
+        <label>Course Category</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Chemistry</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Economics</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Biology</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>History</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Course_Faculty__c</fullName>
+        <description>Course Faculty</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Course Faculty</inlineHelpText>
+        <label>Course Faculty</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Course_Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Course_Faculty_Global_List</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Ankita Singh</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Nisha Patani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Kailash Khare</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chemistry</controllingFieldValue>
+                <valueName>Arvind Mehra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chemistry</controllingFieldValue>
+                <valueName>Ravindra Sharma</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chemistry</controllingFieldValue>
+                <valueName>Urmila Kumari</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Economics</controllingFieldValue>
+                <valueName>Jitendra Bharati</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Economics</controllingFieldValue>
+                <valueName>Chandra Prakash</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Economics</controllingFieldValue>
+                <valueName>Vijay Bhushan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Biology</controllingFieldValue>
+                <valueName>Maniratnam Iyer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Biology</controllingFieldValue>
+                <valueName>Jyoti Maheshwari</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>History</controllingFieldValue>
+                <valueName>Ramnath Pandey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>History</controllingFieldValue>
+                <valueName>Ravi Ambani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Gopinath Manjarekar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Yukti Kulkarni</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Course_Name__c</fullName>
+        <description>Course Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Course Name</inlineHelpText>
+        <label>Course Name</label>
+        <length>30</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <description>Duration of the course</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Duration of the course</inlineHelpText>
+        <label>Duration</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1-2 Months</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5-6 Months</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>8-9 Months</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>1 Year</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Exam_needed__c</fullName>
+        <externalId>false</externalId>
+        <label>Exam needed ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Fee__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>$300</controllingFieldValue>
+                <controllingFieldValue>$400</controllingFieldValue>
+                <controllingFieldValue>$500</controllingFieldValue>
+                <controllingFieldValue>$600</controllingFieldValue>
+                <controllingFieldValue>$700</controllingFieldValue>
+                <controllingFieldValue>$800</controllingFieldValue>
+                <controllingFieldValue>$900</controllingFieldValue>
+                <controllingFieldValue>$1000</controllingFieldValue>
+                <controllingFieldValue>$1100</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>$1200</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fee__c</fullName>
+        <description>Fee of the course</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Fee of the course</inlineHelpText>
+        <label>Fee</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Affiliation__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>$300</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$400</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$500</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$600</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$700</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$800</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$900</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$1000</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$1100</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$1200</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Bangalore University</controllingFieldValue>
+                <valueName>$900</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delhi University</controllingFieldValue>
+                <valueName>$1200</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mumbai University</controllingFieldValue>
+                <valueName>$500</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Course</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>C-{0000}</displayFormat>
+        <label>CourseID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Courses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

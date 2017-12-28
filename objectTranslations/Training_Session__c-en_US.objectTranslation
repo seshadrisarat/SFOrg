@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training Session</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training Sessions</value>
+    </caseValues>
+    <fields>
+        <help><!-- Area of Interest --></help>
+        <label><!-- Area Of Interest --></label>
+        <name>Area_Of_Interest__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country --></help>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Number Of Training Days --></help>
+        <label><!-- Number Of Training Days --></label>
+        <name>Number_Of_Training_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity relation --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Training Sessions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Opt Options --></help>
+        <label><!-- Opt Options --></label>
+        <name>Opt_Options__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Interest --></label>
+        <name>Primary_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Drawing</masterLabel>
+            <translation><!-- Drawing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music</masterLabel>
+            <translation><!-- Music --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reading</masterLabel>
+            <translation><!-- Reading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Writing</masterLabel>
+            <translation><!-- Writing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Interest --></label>
+        <name>Secondary_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Classical</masterLabel>
+            <translation><!-- Classical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crayon</masterLabel>
+            <translation><!-- Crayon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fantasy</masterLabel>
+            <translation><!-- Fantasy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiction</masterLabel>
+            <translation><!-- Fiction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation><!-- Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modern Art</masterLabel>
+            <translation><!-- Modern Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paint</masterLabel>
+            <translation><!-- Paint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pencil Shading</masterLabel>
+            <translation><!-- Pencil Shading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pop</masterLabel>
+            <translation><!-- Pop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rock</masterLabel>
+            <translation><!-- Rock --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

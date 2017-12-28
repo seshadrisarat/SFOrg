@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Remark</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Remarks</value>
+    </caseValues>
+    <fields>
+        <help><!-- Account --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Remarks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Case --></help>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Remarks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Category --></help>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Completion Date --></help>
+        <label><!-- Completion Date --></label>
+        <name>Completion_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Private --></help>
+        <label><!-- Private --></label>
+        <name>Private__c</name>
+    </fields>
+    <fields>
+        <help><!-- Recipients --></help>
+        <label><!-- Recipients --></label>
+        <name>Recipients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Remarked By --></help>
+        <label><!-- Remarked By --></label>
+        <name>Remarked_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Title --></help>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
